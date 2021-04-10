@@ -464,6 +464,8 @@ const controlRecipe = async function () {
     const id = window.location.hash.slice(1);
     if (!id) return;
     _viewsRecipeViewJsDefault.default.renderSpinner();
+    // 0 Update reslurt view to mark selected search result
+    _viewsResultsViewJsDefault.default.update(_modelJs.getSearchResultsPage());
     // 1) Loading recipe
     await _modelJs.loadRecipe(id);
     // 2) Rendering recipe
@@ -494,8 +496,16 @@ const controlPagination = function (goToPage) {
   // 2) Render NEW pagination buttons
   _viewsPaginationViewJsDefault.default.render(_modelJs.state.search);
 };
+const controlServings = function (newServings) {
+  // Update the recipe servings (in state)
+  _modelJs.updateServings(newServings);
+  // Update the recipe view
+  // recipeView.render(model.state.recipe);
+  _viewsRecipeViewJsDefault.default.update(_modelJs.state.recipe);
+};
 const init = function () {
   _viewsRecipeViewJsDefault.default.addHandlerRender(controlRecipe);
+  _viewsRecipeViewJsDefault.default.addHandlerUpdateServings(controlServings);
   _viewsSearchViewJsDefault.default.addHandlerSearch(controlSearchResults);
   _viewsPaginationViewJsDefault.default.addHandlerClick(controlPagination);
 };
@@ -515,6 +525,9 @@ _parcelHelpers.export(exports, "loadSearchResults", function () {
 });
 _parcelHelpers.export(exports, "getSearchResultsPage", function () {
   return getSearchResultsPage;
+});
+_parcelHelpers.export(exports, "updateServings", function () {
+  return updateServings;
 });
 require('regenerator-runtime');
 var _configJs = require('./config.js');
@@ -571,6 +584,12 @@ const getSearchResultsPage = function (page = state.search.page) {
   const start = (page - 1) * state.search.resultsPerPage;
   const end = page * state.search.resultsPerPage;
   return state.search.results.slice(start, end);
+};
+const updateServings = function (newServings) {
+  state.recipe.ingredients.forEach(ing => {
+    ing.quantity = ing.quantity * newServings / state.recipe.servings;
+  });
+  state.recipe.servings = newServings;
 };
 
 },{"regenerator-runtime":"62Qib","@parcel/transformer-js/lib/esmodule-helpers.js":"5gA8y","./config.js":"6pr2F","./helpers.js":"581KF"}],"62Qib":[function(require,module,exports) {
@@ -12599,6 +12618,14 @@ class RecipeView extends _ViewJsDefault.default {
   addHandlerRender(handler) {
     ['hashchange', 'load'].forEach(ev => window.addEventListener(ev, handler));
   }
+  addHandlerUpdateServings(handler) {
+    this._parentElement.addEventListener('click', function (e) {
+      const btn = e.target.closest('.btn--update-servings');
+      if (!btn) return;
+      const {updateTo} = btn.dataset;
+      if (+updateTo > 0) handler(+updateTo);
+    });
+  }
   _generateMarkup() {
     return `
     <figure class="recipe__fig">
@@ -12624,12 +12651,12 @@ class RecipeView extends _ViewJsDefault.default {
           <span class="recipe__info-text">servings</span>
 
         <div class="recipe__info-buttons">
-          <button class="btn--tiny btn--increase-servings">
+          <button class="btn--tiny btn--update-servings" data-update-to="${this._data.servings - 1}">
           <svg>
             <use href="${_urlImgIconsSvgDefault.default}#icon-minus-circle"></use>
           </svg>
           </button>
-          <button class="btn--tiny btn--increase-servings">
+          <button class="btn--tiny btn--update-servings"  data-update-to="${this._data.servings + 1}">
           <svg>
             <use href="${_urlImgIconsSvgDefault.default}#icon-plus-circle"></use>
           </svg>
@@ -13137,6 +13164,24 @@ class View {
     this._clear();
     this._parentElement.insertAdjacentHTML('afterbegin', markup);
   }
+  update(data) {
+    this._data = data;
+    const newMarkup = this._generateMarkup();
+    const newDOM = document.createRange().createContextualFragment(newMarkup);
+    const newElements = Array.from(newDOM.querySelectorAll('*'));
+    const curElements = Array.from(this._parentElement.querySelectorAll('*'));
+    newElements.forEach((newEl, i) => {
+      const curEl = curElements[i];
+      console.log(curEl, newEl.isEqualNode(curEl));
+      // Update changed TEXT
+      if (!newEl.isEqualNode(curEl) && newEl.firstChild.nodeValue.trim() !== '') {
+        // console.log('💥💥', newEl.firstChild?.nodeValue.trim());
+        curEl.textContent = newEl.textContent;
+      }
+      // Update changed ATTRIBUTES
+      if (!newEl.isEqualNode(curEl)) Array.from(newEl.attributes).forEach(attr => curEl.setAttribute(attr.name, attr.value));
+    });
+  }
   _clear() {
     this._parentElement.innerHTML = '';
   }
@@ -13250,9 +13295,10 @@ class ResultView extends _ViewJsDefault.default {
     return this._data.map(this._generateMarkupPreview).join('');
   }
   _generateMarkupPreview(result) {
+    const id = window.location.hash.slice(1);
     return `
     <li class="preview">
-        <a class="preview__link" href="#${result.id}">
+        <a class="preview__link ${result.id === id ? 'preview__link--active' : ''}" href="#${result.id}">
           <figure class="preview__fig">
             <img src="${result.image}" alt="${result.title}" />
           </figure>
