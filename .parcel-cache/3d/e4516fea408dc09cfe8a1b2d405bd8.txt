@@ -1,4 +1,4 @@
-21146
+21145
 95C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\css-what\lib\stringify.d.ts121436361000000000 0
 113C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\abortcontroller-polyfill\dist\cjs-ponyfill.js121436361000000000 0
 130C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\postcss-convert-values\node_modules\color-convert\package.json132620033314190335 0
@@ -42,7 +42,7 @@
 103C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\w3c-xmlserializer\lib\attributes.js121436361000000000 0
 92C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\domexception\LICENSE.txt131471530860000000 0
 118C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\jsdom\lib\jsdom\living\hr-time\Performance-impl.js121436361000000000 0
-67C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\package.json132621883950689426 0
+67C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\package.json132628561672184027 0
 95C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\xmlchars\xml\1.0\ed4.js.map121436361000000000 0
 88C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\acorn-walk\README.md121436361000000000 0
 87C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\is-docker\readme.md121436361000000000 0
@@ -52,7 +52,7 @@
 97C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\es-abstract\helpers\assign.js121436361000000000 0
 120C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\postcss-selector-parser\dist\selectors\combinator.js121436361000000000 0
 100C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\stylehacks\dist\plugins\index.js121436361000000000 0
-59C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\dist132627657111576215 1
+59C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\dist132628562639720266 1
 131C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\css-declaration-sorter\node_modules\supports-color\package.json132620033358572160 0
 111C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\stylehacks\node_modules\postcss\lib\node.js121436361000000000 0
 98C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\postcss-colormin\dist\index.js121436361000000000 0
@@ -253,7 +253,7 @@
 103C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\es-abstract\2018\thisNumberValue.js121436361000000000 0
 107C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\@parcel\utils\test\prettifyTime.test.js121436361000000000 0
 74C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\@iarna132620033040367188 1
-75C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\src\js\views\View.js132625440737727369 0
+75C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\src\js\views\View.js132627693167087665 0
 129C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\regenerate-unicode-properties\Script_Extensions\Phoenician.js121436361000000000 0
 105C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\core-js\features\instance\for-each.js121436361000000000 0
 102C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\core-js\stable\regexp\to-string.js121436361000000000 0
@@ -306,7 +306,7 @@
 155C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\@parcel\transformer-posthtml\node_modules\domutils\node_modules\domhandler\package.json132620033370174450 0
 126C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\postcss-normalize-repeat-style\node_modules\chalk\index.js121436361000000000 0
 134C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\postcss-normalize-unicode\node_modules\supports-color\package.json132620033293372922 0
-70C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\src\js\model.js132627652261444234 0
+70C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\src\js\model.js132627664245794432 0
 76C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\to-regex132620033251475558 1
 82C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\split2\test.js121436361000000000 0
 83C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\caller-callsite132620033364057336 1
@@ -2811,7 +2811,6 @@
 112C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\postcss-ordered-values\dist\lib\getParsed.js121436361000000000 0
 85C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\timers-browserify132620033259714407 1
 130C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\postcss-reduce-transforms\node_modules\color-name\package.json132620033291873543 0
-81C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\dist\index.250b04c7.js.map132627657111576215 0
 104C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\svgo\node_modules\chalk\package.json132620033259734616 0
 90C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\lodash\_createCurry.js121436361000000000 0
 75C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\timsort132620033259373254 1
@@ -3641,6 +3640,7 @@
 118C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\postcss-normalize-url\node_modules\postcss\LICENSE121436361000000000 0
 100C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\util.promisify\implementation.js121436361000000000 0
 91C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\util.promisify\index.js121436361000000000 0
+81C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\dist\index.c60eaa11.js.map132628562639720266 0
 104C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\@parcel\package-manager\src\types.js121436361000000000 0
 90C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\util.promisify\LICENSE121436361000000000 0
 95C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\util.promisify\package.json132620033225376936 0
@@ -5544,6 +5544,7 @@
 87C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\statuses\codes.json131666722490000000 0
 87C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\statuses\HISTORY.md131666749230000000 0
 111C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\core-js\features\reflect\delete-property.js121436361000000000 0
+78C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\dist\icons.c781f215.svg132628562341560621 0
 118C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\@parcel\transformer-posthtml\node_modules\domutils132620033351285937 1
 127C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\postcss-discard-empty\node_modules\supports-color\readme.md121436361000000000 0
 125C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\react-refresh\cjs\react-refresh-runtime.production.min.js121436361000000000 0
@@ -6737,7 +6738,6 @@
 110C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\@babel\core\node_modules\json5\lib\util.js121436361000000000 0
 121C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\postcss-merge-rules\node_modules\postcss\lib\parse.js121436361000000000 0
 131C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\postcss-reduce-initial\node_modules\postcss\lib\previous-map.js121436361000000000 0
-78C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\dist\icons.c4b52749.svg132627657108676571 0
 124C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\regenerate-unicode-properties\Script_Extensions\Dogra.js121436361000000000 0
 83C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\lodash\mixin.js121436361000000000 0
 125C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\csso\node_modules\css-tree\lib\syntax\atrule\font-face.js121436361000000000 0
@@ -10565,7 +10565,6 @@
 120C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\postcss-minify-params\node_modules\has-flag\index.js131593941750000000 0
 124C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\postcss-minify-params\node_modules\has-flag\package.json132620033304324964 0
 89C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\lodash\_baseInvoke.js121436361000000000 0
-82C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\dist\index.1206e35b.css.map132627657111496210 0
 121C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\postcss-minify-params\node_modules\has-flag\readme.md131593942790000000 0
 115C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\@babel\plugin-transform-unicode-escapes\LICENSE121012626000000000 0
 128C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\postcss-minify-params\node_modules\color-name\.eslintrc.json131174093250000000 0
@@ -13783,7 +13782,6 @@
 89C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\coa\lib\completion.js121436361000000000 0
 133C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\jsdom\lib\jsdom\browser\resources\per-document-resource-loader.js121436361000000000 0
 100C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\es-abstract\2020\HourFromTime.js121436361000000000 0
-80C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\dist\favicon.80934ffe.png132627657108676571 0
 120C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\jsdom\lib\jsdom\browser\resources\request-manager.js121436361000000000 0
 119C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\jsdom\lib\jsdom\browser\resources\resource-queue.js121436361000000000 0
 110C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\core-js\features\instance\last-index-of.js121436361000000000 0
@@ -14818,7 +14816,7 @@
 108C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\highlight.js\lib\languages\objectivec.js121436361000000000 0
 105C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\highlight.js\lib\languages\parser3.js121436361000000000 0
 102C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\highlight.js\lib\languages\perl.js121436361000000000 0
-70C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\dist\index.html132627657111416213 0
+70C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\dist\index.html132628562639564022 0
 107C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\highlight.js\lib\languages\plaintext.js121436361000000000 0
 114C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\abortcontroller-polyfill\src\abortableFetch.js121436361000000000 0
 108C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\highlight.js\lib\languages\powershell.js121436361000000000 0
@@ -15922,6 +15920,7 @@
 105C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\core-js\stable\object\from-entries.js121436361000000000 0
 101C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\es-abstract\2017\SameValueZero.js121436361000000000 0
 91C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\es-abstract\2017\Set.js121436361000000000 0
+78C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\dist\index.54e1d6b5.css132628562639564022 0
 103C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\es-abstract\2017\SetFunctionName.js121436361000000000 0
 130C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\@parcel\node-resolver-core\node_modules\to-regex-range\LICENSE131062147800000000 0
 106C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\es-abstract\2017\SpeciesConstructor.js121436361000000000 0
@@ -21141,7 +21140,7 @@
 77C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\.bin\uuid132620033396248453 0
 81C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\.bin\uuid.cmd132620033396248453 0
 82C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\node_modules\.bin\which.cmd132620033396670930 0
-78C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\dist\icons.d4a14980.svg132627657108756563 0
-78C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\dist\index.1206e35b.css132627657111416213 0
-77C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\dist\index.250b04c7.js132627657111496210 0
-77C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\dist\logo.5d271741.png132627657108756563 0
+80C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\dist\favicon.f1877f87.png132628562341570598 0
+82C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\dist\index.54e1d6b5.css.map132628562639564022 0
+77C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\dist\index.c60eaa11.js132628562639564022 0
+77C:\Users\Sholaja\Documents\uDemy\JavaScript\18-forkify\dist\logo.09084f39.png132628562341590545 0
